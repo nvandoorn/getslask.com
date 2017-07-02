@@ -1,10 +1,10 @@
 {
-  "name": "webpack2-react-starter",
+  "name": "getslask.com",
   "version": "0.0.1",
-  "description": "Starting point for Webpack2 and React",
+  "description": "Landing page for slask",
   "repository:": {
     "type": "git",
-    "url": "https://github.com/nvandoorn/webpack2-react-starter"
+    "url": "https://github.com/nvandoorn/getslask.com.git"
   },
   "main": "index.js",
   "scripts": {
