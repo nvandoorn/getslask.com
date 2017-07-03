@@ -1,0 +1,33 @@
+@import "../../globals.css";
+
+.layout {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.btnBox {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100%;
+  composes: marginMixin;
+}
+
+.btn {
+  &:hover {
+    color: var(--bgColor);
+    background: var(--fontColor);
+    border-color: rgba(0, 0, 0, 0);
+  }
+}
+
+.screenshot {
+  composes: marginMixin;
+  max-width: 1200px;
+  width: 90%;
+}
+
+.red {
+  color: var(--red);
+}
