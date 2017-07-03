@@ -8,3 +8,5 @@ import '../fonts/beachbar-bold/beachbar-bold.css'
 import Layout from './components/layout/layout'
 
 ReactDOM.render(<Layout />, document.getElementById('root'))
+
+export default Layout
