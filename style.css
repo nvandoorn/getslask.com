@@ -1,4 +1,22 @@
-@import url(//hello.myfonts.net/count/341dbe);body {
+@import url(//hello.myfonts.net/count/341dbe);.index__marginMixin___1JEuV {
+  margin: 8px 0
+}
+@media(min-width: 750px) {
+  .index__marginMixin___1JEuV {
+    margin: 16px 0
+  }
+  }
+@media(min-width: 970px) {
+  .index__marginMixin___1JEuV {
+    margin: 24px 0
+  }
+  }
+@media(min-width: 1170px) {
+  .index__marginMixin___1JEuV {
+    margin: 48px 0
+  }
+  }
+body {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue;
   background: #3C7BAE;
   color: #ffffff;
@@ -2371,7 +2389,25 @@ a {
   
 @font-face {font-family: 'BeachBar-Bold';src: url(fonts/341DBE_0_0.08dd1835.eot);src: url(fonts/341DBE_0_0.08dd1835.eot?#iefix) format('embedded-opentype'),url(media/341DBE_0_0.1dbfdeee.woff2) format('woff2'),url(media/341DBE_0_0.511a1a60.woff) format('woff'),url(fonts/341DBE_0_0.013a33d4.ttf) format('truetype');}
  
-.layout__container___Z3Bph {
+.layout__marginMixin___LLm9m {
+  margin: 8px 0
+}
+@media(min-width: 750px) {
+  .layout__marginMixin___LLm9m {
+    margin: 16px 0
+  }
+  }
+@media(min-width: 970px) {
+  .layout__marginMixin___LLm9m {
+    margin: 24px 0
+  }
+  }
+@media(min-width: 1170px) {
+  .layout__marginMixin___LLm9m {
+    margin: 48px 0
+  }
+  }
+.layout__layout___1iTsL {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -2400,56 +2436,101 @@ a {
 .layout__btn___f9Hhg:hover {
     color: #3C7BAE;
     background: #ffffff;
-    border-color: rgba(0, 0, 0, 0);
+    border-color: rgba(0, 0, 0, 0)
 }
 .layout__screenshot___33mLJ {
   width: 90%;
 }
+.layout__red___3wDkm {
+  color: #F35656;
+}
+.logo__marginMixin___2QTcN {
+  margin: 8px 0
+}
+@media(min-width: 750px) {
+  .logo__marginMixin___2QTcN {
+    margin: 16px 0
+  }
+  }
+@media(min-width: 970px) {
+  .logo__marginMixin___2QTcN {
+    margin: 24px 0
+  }
+  }
+@media(min-width: 1170px) {
+  .logo__marginMixin___2QTcN {
+    margin: 48px 0
+  }
+  }
 .logo__logo___1z8HP {
+  padding: 0.5em 0 0 0;
+  line-height: 0.5em;
   font-family: 'BeachBar-Bold';
   color: #ffffff;
-    margin: 8px 0;
-    font-size: 35vw;
+    font-size: 40vw;
 }
 @media(min-width: 750px) {
   .logo__logo___1z8HP {
-      margin: 16px 0;
-  }
-    }
-@media(min-width: 970px) {
-  .logo__logo___1z8HP {
-      margin: 24px 0;
+      font-size: 20vw
   }
     }
 @media(min-width: 1170px) {
   .logo__logo___1z8HP {
-      margin: 48px 0;
+      font-size: 275px
   }
     }
+.button__marginMixin___1MWIH {
+  margin: 8px 0
+}
 @media(min-width: 750px) {
-  .logo__logo___1z8HP {
-      font-size: 20vw;
+  .button__marginMixin___1MWIH {
+    margin: 16px 0
   }
-    }
+  }
 @media(min-width: 970px) {
-  .logo__logo___1z8HP {
-      font-size: 15vw;
+  .button__marginMixin___1MWIH {
+    margin: 24px 0
   }
-    }
+  }
+@media(min-width: 1170px) {
+  .button__marginMixin___1MWIH {
+    margin: 48px 0
+  }
+  }
 .button__base___3gDEg {
   border: 0.5px solid #ffffff;
   border-radius: 4px;
-    padding: 10px 10px;
-  transition: 0.4s cubic-bezier(0.7, 0, 0.3, 1);
+    padding: 2vw 4vw;
+    transition: 0.4s cubic-bezier(0.7, 0, 0.3, 1);
     font-size: 1em;
 }
-@media(min-width: 750px) {
+@media(min-width: 1170px) {
   .button__base___3gDEg {
-      padding: 20px 20px;
+      padding: 1vw 2vw
   }
     }
 @media(min-width: 750px) {
   .button__base___3gDEg {
-      font-size: 1.5vw;
+      font-size: 1.6vw
   }
     }
+.footer__marginMixin___2ZdIB {
+  margin: 8px 0
+}
+@media(min-width: 750px) {
+  .footer__marginMixin___2ZdIB {
+    margin: 16px 0
+  }
+  }
+@media(min-width: 970px) {
+  .footer__marginMixin___2ZdIB {
+    margin: 24px 0
+  }
+  }
+@media(min-width: 1170px) {
+  .footer__marginMixin___2ZdIB {
+    margin: 48px 0
+  }
+  }
+.footer__footer___G_tSf {
+}
