@@ -9,6 +9,7 @@ const SRC_PATH = joinDir('src')
 const BUILD_PATH = joinDir('build')
 const PUBLIC_PATH = joinDir('public')
 const NODE_PATH = joinDir('node_modules')
+const FONT_PATH = joinDir('fonts')
 const FILE_FORMAT = '[name].[hash:8].[ext]'
 
 const isProduction = process.env.NODE_ENV === 'production'
@@ -51,13 +52,13 @@ module.exports = {
     },
     {
       test: /\.css$/, // load css libs without css modules or postcss
-      include: NODE_PATH,
+      include: [NODE_PATH, FONT_PATH],
       use: ExtractTextPlugin.extract({
         use: ['css-loader']
       })
     },
     {
-      test: /\.(css\.js|css)$/, // TODO remove .css.js from regex after migrating
+      test: /\.css$/,
       include: SRC_PATH,
       use: ExtractTextPlugin.extract({
         use: [{
@@ -72,17 +73,12 @@ module.exports = {
           loader: 'postcss-loader',
           options:{
             plugins: () => [
-              require('postcss-nesting'),
-              require('postcss-cssnext'),
-              require('precss')
+              require('postcss-import'),
+              require('postcss-cssnext')
             ]
           }
         }]
       })
-    },
-    {
-      test: /\.css\.js$/, // TODO remove after migrating to postcss
-      use: ['css-js-loader']
     },
     {
       test: /\.(js|jsx)$/,
