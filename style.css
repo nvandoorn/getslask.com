@@ -2439,6 +2439,7 @@ a {
     border-color: rgba(0, 0, 0, 0)
 }
 .layout__screenshot___33mLJ {
+  max-width: 1200px;
   width: 90%;
 }
 .layout__red___3wDkm {
@@ -2533,4 +2534,5 @@ a {
   }
   }
 .footer__footer___G_tSf {
+  font-size: 1.3em;
 }
