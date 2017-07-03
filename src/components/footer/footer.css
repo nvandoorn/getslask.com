@@ -1,0 +1,6 @@
+@import "../../globals.css";
+
+.footer {
+  font-size: 1.3em;
+  composes: marginMixin;
+}
