@@ -1,15 +1,10 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import FA from 'react-fontawesome'
 
-import { app } from './index.css'
-import { anotherOne } from './index.css.js'
+import  './index.css'
 import '../node_modules/font-awesome/css/font-awesome.css'
+import '../fonts/beachbar-bold/beachbar-bold.css'
 
-const App = p =>
-  <div className={[app,anotherOne].join(' ')}>
-    <FA name='github' />
-    {p.text}
-  </div>
+import Layout from './components/layout/layout'
 
-ReactDOM.render(<App title='hello world' />, document.getElementById('root'))
+ReactDOM.render(<Layout />, document.getElementById('root'))

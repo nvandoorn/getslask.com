@@ -1,9 +1,12 @@
-@import "./index.config.css";
+@import "./globals.css";
 
-.app {
-  font-size: $fontSize;
-        display: flex;
-  @if 3 < 5 {
-    background: rebeccapurple;
-  }
+body {
+  font-family: system-ui;
+  background: var(--bgColor);
+  color: var(--fontColor);
+}
+
+a {
+  color: var(--fontColor);
+  text-decoration: none;
 }
