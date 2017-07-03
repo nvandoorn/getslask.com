@@ -1,11 +1,13 @@
-.index__app___3cj18 {
-  font-size: 50px;
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
-    background: rgb(102, 51, 153)
+@import url(//hello.myfonts.net/count/341dbe);body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue;
+  background: #3C7BAE;
+  color: #ffffff;
 }
-.index-css__anotherOne___1U89d{display:-webkit-box;display:-ms-flexbox;display:flex;}/*!
+a {
+  color: #ffffff;
+  text-decoration: none;
+}
+/*!
  *  Font Awesome 4.7.0 by @davegandy - http://fontawesome.io - @fontawesome
  *  License - http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)
  */
@@ -2342,3 +2344,112 @@
   overflow: visible;
   clip: auto;
 }
+/**
+ * @license
+ * MyFonts Webfont Build ID 3415486, 2017-07-02T12:51:31-0400
+ * 
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are 
+ * explicitly restricted from using the Licensed Webfonts(s).
+ * 
+ * You may obtain a valid license at the URLs below.
+ * 
+ * Webfont: BeachBar-Bold by DearType
+ * URL: https://www.myfonts.com/fonts/deartype/beachbar/bold/
+ * Copyright: Copyright &#x00A9; 2016 by DearType, Veneta Rangelova. All rights reserved.
+ * Licensed pageviews: 10,000
+ * 
+ * 
+ * License: https://www.myfonts.com/viewlicense?type=web&buildid=3415486
+ * 
+ * © 2017 MyFonts Inc
+*/
+
+
+/* @import must be at top of file, otherwise CSS will not work */
+
+  
+@font-face {font-family: 'BeachBar-Bold';src: url(fonts/341DBE_0_0.08dd1835.eot);src: url(fonts/341DBE_0_0.08dd1835.eot?#iefix) format('embedded-opentype'),url(media/341DBE_0_0.1dbfdeee.woff2) format('woff2'),url(media/341DBE_0_0.511a1a60.woff) format('woff'),url(fonts/341DBE_0_0.013a33d4.ttf) format('truetype');}
+ 
+.layout__container___Z3Bph {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.layout__btnBox___3s6GG {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  width: 100%;
+}
+.layout__btn___f9Hhg {
+}
+.layout__btn___f9Hhg:hover {
+    color: #3C7BAE;
+    background: #ffffff;
+    border-color: rgba(0, 0, 0, 0);
+}
+.layout__screenshot___33mLJ {
+  width: 90%;
+}
+.logo__logo___1z8HP {
+  font-family: 'BeachBar-Bold';
+  color: #ffffff;
+    margin: 8px 0;
+    font-size: 35vw;
+}
+@media(min-width: 750px) {
+  .logo__logo___1z8HP {
+      margin: 16px 0;
+  }
+    }
+@media(min-width: 970px) {
+  .logo__logo___1z8HP {
+      margin: 24px 0;
+  }
+    }
+@media(min-width: 1170px) {
+  .logo__logo___1z8HP {
+      margin: 48px 0;
+  }
+    }
+@media(min-width: 750px) {
+  .logo__logo___1z8HP {
+      font-size: 20vw;
+  }
+    }
+@media(min-width: 970px) {
+  .logo__logo___1z8HP {
+      font-size: 15vw;
+  }
+    }
+.button__base___3gDEg {
+  border: 0.5px solid #ffffff;
+  border-radius: 4px;
+    padding: 10px 10px;
+  transition: 0.4s cubic-bezier(0.7, 0, 0.3, 1);
+    font-size: 1em;
+}
+@media(min-width: 750px) {
+  .button__base___3gDEg {
+      padding: 20px 20px;
+  }
+    }
+@media(min-width: 750px) {
+  .button__base___3gDEg {
+      font-size: 1.5vw;
+  }
+    }
