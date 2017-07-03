@@ -1,0 +1,9 @@
+@import "../../globals.css";
+
+.base {
+  border: var(--btnBorder);
+  border-radius: var(--borderRadiusBtn);
+  @apply --btnPadding;
+  @apply --hoverTransition;
+  @apply --btnFontSize;
+}
