@@ -1,0 +1,59 @@
+@custom-media --breakpointSm (min-width: 750px);
+@custom-media --breakpointMd (min-width: 970px);
+@custom-media --breakpointLg (min-width: 1170px);
+
+:root {
+  --red: #F35656;
+  --fontColor: #ffffff;
+  --bgColor: #3C7BAE;
+
+  --logoColor: #ffffff;
+  --logoSize {
+    font-size: 40vw;
+    @media(--breakpointSm) {
+      font-size: 20vw;
+    }
+    @media(--breakpointLg) {
+      font-size: 275px;
+    }
+  }
+
+  --marginXs: 8px;
+  --marginSm: 16px;
+  --marginMd: 24px;
+  --marginLg: 48px;
+
+  --btnFontSize: {
+    font-size: 1em;
+    @media(--breakpointSm) {
+      font-size: 1.6vw;
+    }
+  }
+  --btnBorder: 0.5px solid #ffffff;
+  --borderRadiusBtn: 6px;
+  --btnPaddingVertical: 10px;
+  --btnPaddingHorziontal: 10px;
+  --btnPadding: {
+    padding: 2vw 4vw;
+    @media(--breakpointLg) {
+      padding: 1vw 2vw;
+    }
+  }
+
+  --hoverTransition {
+    transition: 0.4s cubic-bezier(0.7, 0, 0.3, 1);
+  }
+}
+
+.marginMixin {
+  margin: var(--marginXs) 0;
+  @media(--breakpointSm) {
+    margin: var(--marginSm) 0;
+  }
+  @media(--breakpointMd) {
+    margin: var(--marginMd) 0;
+  }
+  @media(--breakpointLg) {
+    margin: var(--marginLg) 0;
+  }
+}
