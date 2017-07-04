@@ -27,6 +27,9 @@
       -ms-flex-align: center;
           align-items: center;
 }
+.index__centerText___1t6ht {
+  text-align: center;
+}
 html, body {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue;
   background: #3C7BAE;
@@ -2442,6 +2445,9 @@ p {
       -ms-flex-align: center;
           align-items: center;
 }
+.layout__centerText___2RbMW {
+  text-align: center;
+}
 .layout__layout___1iTsL {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -2480,6 +2486,38 @@ p {
 .layout__iconMargin___3Pnd0 {
   margin: 0 0 0 16px;
 }
+.globals__marginMixin___3nFld {
+  margin: 8px 0
+}
+@media(min-width: 750px) {
+  .globals__marginMixin___3nFld {
+    margin: 16px 0
+  }
+  }
+@media(min-width: 970px) {
+  .globals__marginMixin___3nFld {
+    margin: 24px 0
+  }
+  }
+@media(min-width: 1170px) {
+  .globals__marginMixin___3nFld {
+    margin: 30px 0
+  }
+  }
+.globals__flexCenter___1L6Uk {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.globals__centerText___2v_56 {
+  text-align: center;
+}
 .logo__marginMixin___2QTcN {
   margin: 8px 0
 }
@@ -2508,6 +2546,9 @@ p {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+.logo__centerText___1JXwV {
+  text-align: center;
 }
 .logo__layout___1G1iV {
   display: -webkit-box;
@@ -2596,6 +2637,9 @@ p {
       -ms-flex-align: center;
           align-items: center;
 }
+.button__centerText___3cuou {
+  text-align: center;
+}
 .button__base___3gDEg {
     transition: 0.4s cubic-bezier(0.7, 0, 0.3, 1);
     font-size: 1em;
@@ -2663,6 +2707,9 @@ p {
       -ms-flex-align: center;
           align-items: center;
 }
+.demo__centerText___qYvl0 {
+  text-align: center;
+}
 .demo__demo___3IE_W {
   width: 90%;
   position: relative;
@@ -2709,6 +2756,9 @@ p {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+.footer__centerText___3c4Hm {
+  text-align: center;
 }
 .footer__footer___G_tSf {
   font-size: 1.3em;
