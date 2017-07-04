@@ -1,10 +1,11 @@
 import React from 'react';
 
-import { logo } from './logo.css'
+import { logo, logoText } from './logo.css'
 
 const Logo = p =>
   <div className={logo}>
-    {p.children}
+    <h1 className={logoText}>{p.name}</h1>
+    <h2>{p.tagline}</h2>
   </div>
 
 export default Logo
