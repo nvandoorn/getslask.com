@@ -13,18 +13,42 @@
   }
 @media(min-width: 1170px) {
   .index__marginMixin___1JEuV {
-    margin: 48px 0
+    margin: 30px 0
   }
   }
-body {
+.index__flexCenter___3GYpk {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+html, body {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue;
   background: #3C7BAE;
   color: #ffffff;
+  font-size: 18px;
 }
 a {
   color: #ffffff;
   text-decoration: none;
 }
+p {
+}
+@media(min-width: 750px): {
+  p {
+      font-size: 1.2em
+  }
+    }
+@media(min-width: 970px): {
+  p {
+      font-size: 1.5em
+  }
+    }
 /*!
  *  Font Awesome 4.7.0 by @davegandy - http://fontawesome.io - @fontawesome
  *  License - http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)
@@ -2404,9 +2428,20 @@ a {
   }
 @media(min-width: 1170px) {
   .layout__marginMixin___LLm9m {
-    margin: 48px 0
+    margin: 30px 0
   }
   }
+.layout__flexCenter___1oIas {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
 .layout__layout___1iTsL {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -2438,12 +2473,11 @@ a {
     background: #ffffff;
     border-color: rgba(0, 0, 0, 0)
 }
-.layout__screenshot___33mLJ {
-  max-width: 1200px;
-  width: 90%;
-}
 .layout__red___3wDkm {
   color: #F35656;
+}
+.layout__iconMargin___3Pnd0 {
+  margin: 0 0 0 16px;
 }
 .logo__marginMixin___2QTcN {
   margin: 8px 0
@@ -2460,10 +2494,59 @@ a {
   }
 @media(min-width: 1170px) {
   .logo__marginMixin___2QTcN {
-    margin: 48px 0
+    margin: 30px 0
   }
   }
-.logo__logo___1z8HP {
+.logo__flexCenter___XGfiV {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.logo__layout___1G1iV {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.logo__btnBox___Zb8MB {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  width: 100%;
+}
+.logo__btn___1Si7Q {
+}
+.logo__btn___1Si7Q:hover {
+    color: #3C7BAE;
+    background: #ffffff;
+    border-color: rgba(0, 0, 0, 0)
+}
+.logo__red___2M_xY {
+  color: #F35656;
+}
+.logo__iconMargin___3HYVR {
+  margin: 0 0 0 16px;
+}
+.logo__logoText___1_QTK {
+  margin: 0;
   padding: 0.5em 0 0 0;
   line-height: 0.5em;
   font-family: 'BeachBar-Bold';
@@ -2471,15 +2554,17 @@ a {
     font-size: 40vw;
 }
 @media(min-width: 750px) {
-  .logo__logo___1z8HP {
+  .logo__logoText___1_QTK {
       font-size: 20vw
   }
     }
 @media(min-width: 1170px) {
-  .logo__logo___1z8HP {
+  .logo__logoText___1_QTK {
       font-size: 275px
   }
     }
+.logo__logo___1z8HP {
+}
 .button__marginMixin___1MWIH {
   margin: 8px 0
 }
@@ -2495,26 +2580,105 @@ a {
   }
 @media(min-width: 1170px) {
   .button__marginMixin___1MWIH {
-    margin: 48px 0
+    margin: 30px 0
   }
   }
+.button__flexCenter___30wAk {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
 .button__base___3gDEg {
-  border: 0.5px solid #ffffff;
-  border-radius: 6px;
-    padding: 2vw 4vw;
     transition: 0.4s cubic-bezier(0.7, 0, 0.3, 1);
     font-size: 1em;
 }
-@media(min-width: 1170px) {
-  .button__base___3gDEg {
-      padding: 1vw 2vw
-  }
-    }
 @media(min-width: 750px) {
   .button__base___3gDEg {
-      font-size: 1.6vw
+      font-size: 1.2em
   }
     }
+@media(min-width: 970px) {
+  .button__base___3gDEg {
+      font-size: 1.5em
+  }
+    }
+.button__rect___6A3W0 {
+  border: 0.5px solid #ffffff;
+  border-radius: 6px;
+    width: 135px;
+    height: 35px;
+}
+@media(min-width: 750px) {
+  .button__rect___6A3W0 {
+      width: 150px;
+      height: 50px
+  }
+    }
+@media(min-width: 970px) {
+  .button__rect___6A3W0 {
+      width: 200px;
+      height: 65px
+  }
+    }
+.button__round___3L_QP {
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    box-shadow: 0 5px 8px rgba(0, 0, 0, .35);
+}
+.demo__marginMixin___1ee-- {
+  margin: 8px 0
+}
+@media(min-width: 750px) {
+  .demo__marginMixin___1ee-- {
+    margin: 16px 0
+  }
+  }
+@media(min-width: 970px) {
+  .demo__marginMixin___1ee-- {
+    margin: 24px 0
+  }
+  }
+@media(min-width: 1170px) {
+  .demo__marginMixin___1ee-- {
+    margin: 30px 0
+  }
+  }
+.demo__flexCenter___193O3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.demo__demo___3IE_W {
+  width: 90%;
+  position: relative;
+}
+.demo__screenshot___YXWfy {
+  width: 100%;
+  max-width: 1200px;
+}
+.demo__btn___rG4mT {
+  background: #5cb85c;
+  position: absolute;
+  left: calc(50% - 25px);
+  top: 40%
+}
+.demo__btn___rG4mT:hover {
+    -webkit-transform: scale(1.5);
+            transform: scale(1.5)
+}
 .footer__marginMixin___2ZdIB {
   margin: 8px 0
 }
@@ -2530,9 +2694,20 @@ a {
   }
 @media(min-width: 1170px) {
   .footer__marginMixin___2ZdIB {
-    margin: 48px 0
+    margin: 30px 0
   }
   }
+.footer__flexCenter___2F08h {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
 .footer__footer___G_tSf {
   font-size: 1.3em;
 }
