@@ -4,8 +4,20 @@
 
 :root {
   --red: #F35656;
+  --green: #5cb85c;
   --fontColor: #ffffff;
   --bgColor: #3C7BAE;
+  --baseFontSize: 18px;
+
+  --pSize {
+    line-height: 2em;
+    @media(--breakpointSm): {
+      font-size: 1.2em;
+    }
+    @media(--breakpointMd): {
+      font-size: 1.5em;
+    }
+  }
 
   --logoColor: #ffffff;
   --logoSize {
@@ -21,23 +33,38 @@
   --marginXs: 8px;
   --marginSm: 16px;
   --marginMd: 24px;
-  --marginLg: 48px;
+  --marginLg: 30px;
 
   --btnFontSize: {
     font-size: 1em;
     @media(--breakpointSm) {
-      font-size: 1.6vw;
+      font-size: 1.2em;
+    }
+    @media(--breakpointMd) {
+      font-size: 1.5em;
     }
   }
   --btnBorder: 0.5px solid #ffffff;
   --borderRadiusBtn: 6px;
-  --btnPaddingVertical: 10px;
-  --btnPaddingHorziontal: 10px;
-  --btnPadding: {
-    padding: 2vw 4vw;
-    @media(--breakpointLg) {
-      padding: 1vw 2vw;
+  --btnSize {
+    width: 135px;
+    height: 35px;
+    @media(--breakpointSm) {
+      width: 150px;
+      height: 50px;
     }
+    @media(--breakpointMd) {
+      width: 200px;
+      height: 65px;
+    }
+  }
+
+  --roundBtnDim: 50px;
+  --roundBtnSize {
+    width: var(--roundBtnDim);
+    height: var(--roundBtnDim);
+    border-radius: calc(var(--roundBtnDim)/2);
+    box-shadow: 0 5px 8px rgba(0, 0, 0,.35);
   }
 
   --hoverTransition {
@@ -56,4 +83,14 @@
   @media(--breakpointLg) {
     margin: var(--marginLg) 0;
   }
+}
+
+.flexCenter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.centerText {
+  text-align: center;
 }
