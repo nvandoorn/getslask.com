@@ -1,7 +1,9 @@
 import React from 'react'
 
-import { base } from './button.css'
+import { round, rect } from './button.css'
 
-const Button = p => <a href={p.href} className={[base, p.className].join(' ')}>{p.children}</a>
+const button = className => p => <a href={p.href} className={[className, p.className].join(' ')}>{p.children}</a>
 
-export default Button
+export const RectButton = button(rect)
+
+export const RoundButton = button(round)

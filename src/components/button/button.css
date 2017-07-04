@@ -1,9 +1,19 @@
 @import "../../globals.css";
 
 .base {
-  border: var(--btnBorder);
-  border-radius: var(--borderRadiusBtn);
-  @apply --btnPadding;
   @apply --hoverTransition;
   @apply --btnFontSize;
+  composes: flexCenter;
+}
+
+.rect {
+  composes: base;
+  border: var(--btnBorder);
+  border-radius: var(--borderRadiusBtn);
+  @apply --btnSize;
+}
+
+.round {
+  composes: base;
+  @apply --roundBtnSize;
 }
