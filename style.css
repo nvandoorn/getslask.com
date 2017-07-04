@@ -2717,6 +2717,7 @@ h1, h2, h3, h4, h5 {
 .demo__demo___3IE_W {
   width: 90%;
   position: relative;
+  margin-top: -114px;
 }
 .demo__screenshot___YXWfy {
   width: 100%;
@@ -2725,8 +2726,8 @@ h1, h2, h3, h4, h5 {
 .demo__btn___rG4mT {
   background: #5cb85c;
   position: absolute;
-  left: calc(50% - 25px);
-  top: 40%
+  left: offset;
+  top: offset
 }
 .demo__btn___rG4mT:hover {
     -webkit-transform: scale(1.5);
