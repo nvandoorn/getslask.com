@@ -1,24 +1,28 @@
 import React from 'react'
 import FA from 'react-fontawesome'
 
-import { layout, btnBox, btn, screenshot, red } from './layout.css'
+import { layout, btnBox, btn, red, iconMargin } from './layout.css'
+import { centerText } from '../../globals.css'
 
-import screenshotImg from '../screenshot/screenshot.png'
 import Logo from '../logo/logo'
-import Button from '../button/button'
+import { RectButton as Button } from '../button/button'
+import Demo from '../demo/demo'
 import Footer from '../footer/footer'
+
+const styledButton = (text, href, iconName) =>
+  <Button href={href} className={btn}>{text}<FA name={iconName} className={iconMargin} /></Button>
 
 const Layout = p =>
   <div className={layout}>
     <div className={layout}>
-      <Logo>slask</Logo>
-      <h2>Connect your team</h2>
+      <Logo tagline='Untangle your team' name='slask' />
       <div className={btnBox}>
-        <Button className={btn}>Download <FA name='download' /></Button>
-        <Button href='//github.com/nvandoorn/slask' className={btn}>Source Code <FA name='github' /></Button>
+        {styledButton('Download', '//www.npmjs.com/package/slask', 'download')}
+        {styledButton('Code', '//github.com/nvandoorn/slask', 'github')}
       </div>
     </div>
-    <img src={screenshotImg} className={screenshot} alt='slask screenshot' />
+    <p className={centerText}>slask is a lightweight log viewer and server all in one.</p>
+    <Demo />
     <Footer>
       Made with <FA name='heart' className={red} /> by nvandoorn
     </Footer>
