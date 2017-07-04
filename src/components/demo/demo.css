@@ -1,5 +1,9 @@
 @import "../../globals.css";
 
+:root {
+  --offset: calc(50% - (var(--roundBtnDim) / 2));
+}
+
 .demo {
   width: 90%;
   position: relative;
@@ -14,8 +18,8 @@
 .btn {
   background: var(--green);
   position: absolute;
-  left: calc(50% - (var(--roundBtnDim) / 2));
-  top: 40%;
+  left: offset;
+  top: offset;
   &:hover{
     transform: scale(1.5);
   }
