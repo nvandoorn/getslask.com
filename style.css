@@ -2453,6 +2453,7 @@ p {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  margin: 0 auto;
 }
 .layout__btnBox___3s6GG {
   display: -webkit-box;
@@ -2519,6 +2520,7 @@ p {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  margin: 0 auto;
 }
 .logo__btnBox___Zb8MB {
   display: -webkit-box;
