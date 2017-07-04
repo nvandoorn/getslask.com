@@ -47,7 +47,7 @@
   --btnBorder: 0.5px solid #ffffff;
   --borderRadiusBtn: 6px;
   --btnSize {
-    width: 135px;
+    width: 125px;
     height: 35px;
     @media(--breakpointSm) {
       width: 150px;
