@@ -1,12 +1,17 @@
 @import "./globals.css";
 
-body {
+html, body {
   font-family: system-ui;
   background: var(--bgColor);
   color: var(--fontColor);
+  font-size: var(--baseFontSize);
 }
 
 a {
   color: var(--fontColor);
   text-decoration: none;
+}
+
+p {
+  @apply --pSize;
 }
