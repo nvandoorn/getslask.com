@@ -1,0 +1,22 @@
+@import "../../globals.css";
+
+.demo {
+  width: 90%;
+  position: relative;
+  composes: flexCenter;
+}
+
+.screenshot {
+  width: 100%;
+  max-width: 1200px;
+}
+
+.btn {
+  background: var(--green);
+  position: absolute;
+  left: calc(50% - (var(--roundBtnDim) / 2));
+  top: 40%;
+  &:hover{
+    transform: scale(1.5);
+  }
+}
