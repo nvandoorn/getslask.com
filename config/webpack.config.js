@@ -54,7 +54,12 @@ module.exports = {
       test: /\.css$/, // load css libs without css modules or postcss
       include: [NODE_PATH, FONT_PATH],
       use: ExtractTextPlugin.extract({
-        use: ['css-loader']
+        use: [{
+          loader: 'css-loader',
+          options: {
+            minimize: isProduction
+          }
+        }]
       })
     },
     {
@@ -63,7 +68,8 @@ module.exports = {
       use: ExtractTextPlugin.extract({
         use: [{
           loader: 'css-loader',
-          query: {
+          options: {
+            minimize: isProduction,
             modules: true,
             importLoaders: 1,
             localIdentName: '[name]__[local]___[hash:base64:5]'
