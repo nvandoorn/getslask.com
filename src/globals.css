@@ -21,9 +21,9 @@
 
   --logoColor: #ffffff;
   --logoSize {
-    font-size: 40vw;
+    font-size: 38vw;
     @media(--breakpointSm) {
-      font-size: 20vw;
+      font-size: 250px;
     }
     @media(--breakpointLg) {
       font-size: 275px;
@@ -48,10 +48,9 @@
   --borderRadiusBtn: 6px;
   --btnSize {
     width: 125px;
-    height: 35px;
+    height: 50px;
     @media(--breakpointSm) {
       width: 150px;
-      height: 50px;
     }
     @media(--breakpointMd) {
       width: 200px;
